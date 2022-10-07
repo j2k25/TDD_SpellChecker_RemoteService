@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spellcheck.TestAnalyzer" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-10-07T07:41:13" hostname="J-LAP" time="0.702">
+  <properties/>
+  <testcase name="checkSentenceWithFirstWordCorrectSecondEncounterServiceFailureAndLastWordIncorrect()" classname="spellcheck.TestAnalyzer" time="0.654"/>
+  <testcase name="checkTwoCorrectWords()" classname="spellcheck.TestAnalyzer" time="0.005"/>
+  <testcase name="canary()" classname="spellcheck.TestAnalyzer" time="0.004"/>
+  <testcase name="checkTwoCorrectWordsWithExtraSpace()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <testcase name="checkOneCorrectWord()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <testcase name="checkEmptyString()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <testcase name="checkOneCorrectWordWithClientFailureError()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <testcase name="checkOneCorrectAndOneIncorrectWords()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <testcase name="checkOneCorrectWordWithServiceFailureError()" classname="spellcheck.TestAnalyzer" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

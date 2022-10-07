@@ -1,0 +1,26 @@
+TestAnalyzer
+
+xcanary test
+
+xanalyzer takes a word "hello" with correct spelling and returns a result with the word for transformed text, 1 for number of words, 0 for number of typos, and 0% for error rate.
+  ==>In this case, the code will not to a real service, but to a stub that will take the word hello and return true.
+
+xanalyzer takes a words "hello there" with correct spellings and returns a result with the words for transformed text, 2 for number of words, 0 for number of typos, and 0% for error rate.
+  ==>In this case, the code will not to a real service, but to a stub that will take the word hello and return true and the word there and return true.
+
+xanalyzer takes a words "hello  there" with correct spellings and returns a result with the words for transformed text, 2 for number of words, 0 for number of typos, and 0% for error rate.
+  ==>In this case, the code will not to a real service, but to a stub that will take the word hello and return true and the word there and return true.
+
+xanalyzer takes a words "hello thre" with one incorrect spelling and returns a result with the words "hello __thre__" for transformed text, 2 for number of words, 1 for number of typos, and 50% for error rate.
+  ==>In this case, the code will not to a real service, but to a stub that will take the word hello and return true and the word thre and return false
+
+xanalyzer takes an empty sentence
+xanalyzer takes a correct word "hello" but runs into a network error
+xanalyzer takes a correct word "hello" but runs into a service failure error
+xanalyzer takes a correct word "hello there" but runs into a network failure error only for the word there
+
+xservice returns some response for call
+xparse true response
+xparse false response
+xis_spelling_correct calls service and parse
+xis_spelling_correct passes through the failure from service call

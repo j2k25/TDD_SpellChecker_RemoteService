@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spellcheck.TestSpellChecker" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-07T07:41:13" hostname="J-LAP" time="0.366">
+  <properties/>
+  <testcase name="isSpellingCorrectCallsServiceAndParse()" classname="spellcheck.TestSpellChecker" time="0.266"/>
+  <testcase name="serviceParseFalseResponse()" classname="spellcheck.TestSpellChecker" time="0.004"/>
+  <testcase name="serviceReturnsResponseForCall()" classname="spellcheck.TestSpellChecker" time="0.046"/>
+  <testcase name="isSpellingCorrectPassesServiceFailure()" classname="spellcheck.TestSpellChecker" time="0.039"/>
+  <testcase name="serviceParseTrueResponse()" classname="spellcheck.TestSpellChecker" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
